@@ -6,6 +6,6 @@
     <title>Proyecto Ecommerce</title>
 </head>
 <body>
-    <h1>Titulo</h1>
+    <h1>Titulo Miguel</h1>
 </body>
 </html>
