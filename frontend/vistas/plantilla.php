@@ -17,9 +17,9 @@
 
     <title>Proyecto Ecommerce</title>
 
-    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="vistas/css/plugins/bootstrap.min.css">
 
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="vistas/css/plugins/font-awesome.min.css">
 
     <script src="js/plugins/jquery.min.js"></script>
 
