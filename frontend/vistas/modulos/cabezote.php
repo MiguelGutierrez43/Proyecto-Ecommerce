@@ -61,7 +61,6 @@ TOP
                     <li><a href="#modalRegistro" data-toggle="modal">Crear una Cuenta</a></li>
                 </ul>
             
-            
             </div>
         
         </div>
@@ -69,3 +68,32 @@ TOP
     </div>
 
 </div>
+
+<!--========================================================
+HEADER
+=========================================================-->
+<header class="container-fluid">
+
+    <div class="container">
+
+        <div class="row" id="cabezote">
+
+            <!--========================================================
+            HEADER
+            =========================================================-->
+
+            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="logotipo">
+                
+                <a href="#">
+
+                    <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/plantilla/logo.png" class="img-responsive">
+
+                </a>
+
+            </div>
+        
+        </div>
+
+    </div>
+
+</header>
