@@ -21,9 +21,9 @@
 
     <link rel="stylesheet" href="vistas/css/plugins/font-awesome.min.css">
 
-    <script src="js/plugins/jquery.min.js"></script>
+    <script src="vistas/js/plugins/jquery.min.js"></script>
 
-    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="vistas/js/plugins/bootstrap.min.js"></script>
 
 </head>
 <body>
