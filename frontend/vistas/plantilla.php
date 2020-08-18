@@ -21,6 +21,10 @@
 
     <link rel="stylesheet" href="vistas/css/plugins/font-awesome.min.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet">
+
     <script src="vistas/js/plugins/jquery.min.js"></script>
 
     <script src="vistas/js/plugins/bootstrap.min.js"></script>
