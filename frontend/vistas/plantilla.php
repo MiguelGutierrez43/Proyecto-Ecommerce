@@ -25,6 +25,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet">
 
+    <link rel="stylesheet" href="vistas/css/plantilla.css">
+
     <script src="vistas/js/plugins/jquery.min.js"></script>
 
     <script src="vistas/js/plugins/bootstrap.min.js"></script>
