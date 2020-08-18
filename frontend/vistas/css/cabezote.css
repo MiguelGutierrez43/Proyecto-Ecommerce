@@ -13,12 +13,18 @@ TOP
   color: white;
 }
 
+/* Clase social maneja el tamaño y la separación de los logos*/
 .social ul li a i {
   font-size: 18px;
   margin: 0 1px;
 }
 
-#registro ul {
+/* Clase registro maneja el tamaño y la separación del registro*/
+.registro ul {
   text-align: right;
   font-size: 12px;
 }
+
+/*========================================================
+HEADER
+=========================================================*/
