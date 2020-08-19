@@ -129,6 +129,9 @@ ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =========================================================*/
 
 @media (min-width: 1200px) {
+  .col-lg-0 {
+    display: none;
+  }
 }
 
 /*========================================================
@@ -136,6 +139,9 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =========================================================*/
 
 @media (max-width: 1199px) and (min-width: 992px) {
+  .col-md-0 {
+    display: none;
+  }
 }
 
 /*========================================================
@@ -143,6 +149,9 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =========================================================*/
 
 @media (max-width: 991px) and (min-width: 768px) {
+  .col-sm-0 {
+    display: none;
+  }
 }
 
 /*========================================================
@@ -150,4 +159,7 @@ MOVIL (XS revisamos en 320px)
 =========================================================*/
 
 @media (max-width: 767px) {
+  .col-xs-0 {
+    display: none;
+  }
 }
