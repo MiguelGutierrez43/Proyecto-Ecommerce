@@ -14,6 +14,11 @@ TOP
             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 social">
         
                 <ul>
+                    <?php
+                        $social = ControladorPlantilla::ctrEstiloPlantilla();
+
+                        var_dump($social);
+                    ?>
                     <li>
                         <a href="http://facebook.com/" target="_blank">
                             <i class="fa fa-facebook redSocial facebookBlanco" aria-hidden="true"></i>
