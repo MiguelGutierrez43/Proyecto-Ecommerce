@@ -3,7 +3,7 @@
 class Conexion{
     public function conectar(){
         
-        $link = new PDO("mysql:host=localhost;dbname=ecommerce_undurraga",
+        $link = new PDO("mysql:host=localhost;dbname=ecommerce",
                         "root",
                         "",
                         array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
