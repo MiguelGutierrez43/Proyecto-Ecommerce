@@ -17,6 +17,14 @@
 
     <title>Proyecto Ecommerce</title>
 
+    <?php
+
+        $icono = ControladorPlantilla::ctrEstiloPlantilla();
+
+        echo '<link rel="icon" href="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/'.$icono["icono"].'">';
+
+    ?>
+
     <link rel="stylesheet" href="vistas/css/plugins/bootstrap.min.css">
 
     <link rel="stylesheet" href="vistas/css/plugins/font-awesome.min.css">
