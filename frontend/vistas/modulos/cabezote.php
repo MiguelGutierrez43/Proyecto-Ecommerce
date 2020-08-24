@@ -70,7 +70,7 @@ HEADER
                 
                 <a href="#">
 
-                    <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/plantilla/logo.png" class="img-responsive">
+                    <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/<?php echo $social["logo"]; ?>" class="img-responsive">
 
                 </a>
 
