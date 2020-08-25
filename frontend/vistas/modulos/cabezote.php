@@ -165,7 +165,13 @@ HEADER
 
                         <hr>
 
-                        <ul>
+                        <ul>';
+
+                        $subcategorias = ControladorProductos::ctrMostrarSubCategorias($value["id"]);
+
+                        var_dump ($subcategorias);
+
+                        echo'
 
                         <li><a href="#" class="pixelSubCategoria">Lorem Ipsum</a></li>
                         <li><a href="#" class="pixelSubCategoria">Lorem Ipsum</a></li>
