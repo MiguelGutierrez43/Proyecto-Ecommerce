@@ -169,16 +169,13 @@ HEADER
 
                         $subcategorias = ControladorProductos::ctrMostrarSubCategorias($value["id"]);
 
-                        var_dump ($subcategorias);
+                        foreach ($subcategorias as $key => $value) {
+                            
+                            echo'<li><a href="#" class="pixelSubCategoria">'.$value["subcategoria"].'</a></li>';
+                        }
 
                         echo'
 
-                        <li><a href="#" class="pixelSubCategoria">Lorem Ipsum</a></li>
-                        <li><a href="#" class="pixelSubCategoria">Lorem Ipsum</a></li>
-                        <li><a href="#" class="pixelSubCategoria">Lorem Ipsum</a></li>
-                        <li><a href="#" class="pixelSubCategoria">Lorem Ipsum</a></li>
-                        <li><a href="#" class="pixelSubCategoria">Lorem Ipsum</a></li>
-                
                         </ul>
             
                     </div>';
