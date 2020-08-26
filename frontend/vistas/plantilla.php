@@ -58,9 +58,13 @@ CABEZOTE
 
 include "modulos/cabezote.php";
 
+$rutas = array();
+
 if(isset($_GET["ruta"])){
 
-    echo $_GET["ruta"];
+    $rutas = explode("/", $_GET["ruta"]);
+
+    var_dump($rutas[0]);
 }
 
 ?>
