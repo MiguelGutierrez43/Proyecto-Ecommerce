@@ -51,6 +51,11 @@ CABEZOTE
 
 include "modulos/cabezote.php";
 
+if(isset($_GET["ruta"])){
+
+    echo $_GET["ruta"];
+}
+
 ?>
 
 <script src="vistas/js/cabezote.js"></script>
