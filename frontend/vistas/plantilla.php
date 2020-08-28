@@ -59,19 +59,23 @@ CABEZOTE
 include "modulos/cabezote.php";
 
 $rutas = array();
+$ruta = null;
 
 if(isset($_GET["ruta"])){
 
     $rutas = explode("/", $_GET["ruta"]);
 
     $item = "ruta";
-    $valor = $_GET["ruta"];
+    $valor = $rutas[0];
 
     $rutasCategorias = ControladorProductos::ctrMostrarCategorias($item, $valor);
 
-    var_dump ($rutasCategorias);
+    if($rutas[0] == $rutasCategorias["ruta"]){
 
-    if($rutas[0] == "dipticos"){
+        $ruta = $rutas[0];
+    };
+
+    if($ruta !=null){
 
         include "modulos/productos.php";    
     }else{
