@@ -64,7 +64,20 @@ if(isset($_GET["ruta"])){
 
     $rutas = explode("/", $_GET["ruta"]);
 
-    var_dump($rutas[0]);
+    $item = "ruta";
+    $valor = $_GET["ruta"];
+
+    $rutasCategorias = ControladorProductos::ctrMostrarCategorias($item, $valor);
+
+    var_dump ($rutasCategorias);
+
+    if($rutas[0] == "dipticos"){
+
+        include "modulos/productos.php";    
+    }else{
+
+        include "modulos/error404.php";
+    }
 }
 
 ?>
