@@ -2,26 +2,27 @@
 
 class ControladorPlantilla{
 
-/*========================================================
-LLAMAMOS LA PLANTILLA
-=========================================================*/
+	/*=============================================
+	LLAMAMOS LA PLANTILLA
+	=============================================*/
 
-    public function plantilla(){
+	public function plantilla(){
 
-        include "vistas/plantilla.php";
-    }
+		include "vistas/plantilla.php";
 
-/*========================================================
-TRAEMOS LOS ESTILOS DINAMICOS DE LA PLANTILLA
-=========================================================*/
+	}
 
-    public function ctrEstiloPlantilla(){
+	/*=============================================
+	TRAEMOS LOS ESTILOS DINÁMICOS DE LA PLANTILLA
+	=============================================*/
 
-        $tabla = "plantilla";
+	public function ctrEstiloPlantilla(){
 
-        $respuesta = ModeloPlantilla::mdlEstiloPlantilla($tabla);
+		$tabla = "plantilla";
 
-        return $respuesta;
+		$respuesta = ModeloPlantilla::mdlEstiloPlantilla($tabla);
 
-    }
+		return $respuesta;
+	}
+
 }
