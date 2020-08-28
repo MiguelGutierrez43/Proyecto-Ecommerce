@@ -50,74 +50,77 @@
 
 </head>
 <body>
+
 <?php
 
-/*========================================================
+/*=============================================
 CABEZOTE
-=========================================================*/
+=============================================*/
 
 include "modulos/cabezote.php";
 
-/*========================================================
+/*=============================================
 CONTENIDO DINÁMICO
-=========================================================*/
+=============================================*/
 
 $rutas = array();
 $ruta = null;
 
 if(isset($_GET["ruta"])){
 
-    $rutas = explode("/", $_GET["ruta"]);
+	$rutas = explode("/", $_GET["ruta"]);
 
-    $item = "ruta";
-    $valor = $rutas[0];
+	$item = "ruta";
+	$valor =  $rutas[0];
 
-    /*========================================================
-    URL'S AMIGABLES DE CATEGORIAS
-    =========================================================*/
+	/*=============================================
+	URL'S AMIGABLES DE CATEGORÍAS
+	=============================================*/
 
-    $rutasCategorias = ControladorProductos::ctrMostrarCategorias($item, $valor);
+	$rutaCategorias = ControladorProductos::ctrMostrarCategorias($item, $valor);
 
-    if($rutas[0] == $rutasCategorias["ruta"]){
+	if($rutas[0] == $rutaCategorias["ruta"]){
 
-        $ruta = $rutas[0];
-    }
+		$ruta = $rutas[0];
 
-    /*========================================================
-    URL'S AMIGABLES DE SUBCATEGORIAS
-    =========================================================*/
+	}
 
-    $rutasSubCategorias = ControladorProductos::ctrMostrarSubCategorias($item, $valor);
+	/*=============================================
+	URL'S AMIGABLES DE SUBCATEGORÍAS
+	=============================================*/
 
-    foreach ($rutasSubCategorias as $key => $value) {
+	$rutaSubCategorias = ControladorProductos::ctrMostrarSubCategorias($item, $valor);
 
-        if($rutas[0] == $value["ruta"]){
+	foreach ($rutaSubCategorias as $key => $value) {
+		
+		if($rutas[0] == $value["ruta"]){
 
-            $ruta = $rutas[0];
-        }
-    }
+			$ruta = $rutas[0];
 
-    var_dump($rutasSubCategorias["ruta"]);
+		}
 
-    /*========================================================
-    LISTA BLANCA DE URL'S AMIGABLES
-    =========================================================*/
+	}
 
-    if($ruta !=null){
+	/*=============================================
+	LISTA BLANCA DE URL'S AMIGABLES
+	=============================================*/
 
-        include "modulos/productos.php";    
-    }else{
+	if($ruta != null){
 
-        include "modulos/error404.php";
-    }
+		include "modulos/productos.php";
+
+	}else{
+
+		include "modulos/error404.php";
+
+	}
+
 }
 
 ?>
 
 <script src="<?php echo $url; ?>vistas/js/cabezote.js"></script>
-
 <script src="<?php echo $url; ?>vistas/js/plantilla.js"></script>
-
 
 </body>
 </html>
