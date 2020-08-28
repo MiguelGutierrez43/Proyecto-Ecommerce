@@ -58,6 +58,10 @@ CABEZOTE
 
 include "modulos/cabezote.php";
 
+/*========================================================
+CONTENIDO DINÁMICO
+=========================================================*/
+
 $rutas = array();
 $ruta = null;
 
@@ -68,12 +72,36 @@ if(isset($_GET["ruta"])){
     $item = "ruta";
     $valor = $rutas[0];
 
+    /*========================================================
+    URL'S AMIGABLES DE CATEGORIAS
+    =========================================================*/
+
     $rutasCategorias = ControladorProductos::ctrMostrarCategorias($item, $valor);
 
     if($rutas[0] == $rutasCategorias["ruta"]){
 
         $ruta = $rutas[0];
-    };
+    }
+
+    /*========================================================
+    URL'S AMIGABLES DE SUBCATEGORIAS
+    =========================================================*/
+
+    $rutasSubCategorias = ControladorProductos::ctrMostrarSubCategorias($item, $valor);
+
+    foreach ($rutasSubCategorias as $key => $value) {
+
+        if($rutas[0] == $value["ruta"]){
+
+            $ruta = $rutas[0];
+        }
+    }
+
+    var_dump($rutasSubCategorias["ruta"]);
+
+    /*========================================================
+    LISTA BLANCA DE URL'S AMIGABLES
+    =========================================================*/
 
     if($ruta !=null){
 
