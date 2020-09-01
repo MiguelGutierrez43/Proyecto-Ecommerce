@@ -115,6 +115,10 @@ if(isset($_GET["ruta"])){
 
 	}
 
+}else{
+
+	include "modulos/slide.php";
+
 }
 
 ?>
