@@ -147,7 +147,7 @@ HEADER
 				
 				</a>	
 
-				<p>TU CARRITO <span class="cantidadCesta"></span> <br> CLP $ <span class="sumaCesta">20</span></p>	
+				<p>TU CARRITO <span class="cantidadCesta"></span> <br> CLP $ <span class="sumaCesta"></span></p>	
 
 			</div>
 
