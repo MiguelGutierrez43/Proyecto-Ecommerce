@@ -15,13 +15,11 @@ SLIDESHOW
             
             <li>
             
-                <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/
-                backend/vistas/img/slide/default/back_default.jpg">
+                <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/default/back_default.jpg">
 
                 <div class="slideOpciones slideOpcion1">
                 
-                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/
-                    backend/vistas/img/slide/slide1/calzado.png">
+                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide1/calzado.png">
 
                     <div class="textosSlide">
                     
