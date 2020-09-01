@@ -39,6 +39,9 @@ SLIDE
 
 #slide .slideOpcion1 .textosSlide {
   position: absolute;
+  width: 40%;
+  top: 20%;
+  left: 10%;
 }
 
 #slide .slideOpcion1 h1 {
@@ -47,6 +50,7 @@ SLIDE
   font-family: "Ubuntu Condensed", sans-serif;
   opacity: 1;
   top: -10%;
+  color: #333;
 }
 
 #slide .slideOpcion1 h2 {
@@ -55,6 +59,7 @@ SLIDE
   font-family: "Ubuntu Condensed", sans-serif;
   opacity: 1;
   top: -10%;
+  color: #777;
 }
 
 #slide .slideOpcion1 h3 {
@@ -63,13 +68,14 @@ SLIDE
   font-family: "Ubuntu Condensed", sans-serif;
   opacity: 1;
   top: -10%;
+  color: #888;
 }
 
 #slide .slideOpciones button {
   border: 0px;
   margin-top: 10px;
   padding: 10px;
-  opacity: 0;
+  opacity: 1;
   top: -10%;
 }
 
