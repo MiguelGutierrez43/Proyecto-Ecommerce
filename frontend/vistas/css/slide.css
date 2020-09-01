@@ -22,7 +22,7 @@ SLIDE
 #slide ul li {
   position: relative;
   float: left;
-  width: 100%;
+  width: 25%;
 }
 
 #slide ul li img {
