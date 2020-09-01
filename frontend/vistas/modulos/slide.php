@@ -19,7 +19,7 @@ SLIDESHOW
 
                 <div class="slideOpciones slideOpcion1">
                 
-                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide1/calzado.png">
+                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide1/tarjetas.png">
 
                     <div class="textosSlide">
                     
