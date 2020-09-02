@@ -71,6 +71,30 @@ SLIDE
   color: #888;
 }
 
+#slide .slideOpcion2 img {
+  position: absolute;
+  opacity: 1;
+  top: 5%;
+  left: 15%;
+  width: 25%;
+}
+
+#slide .slideOpcion2 .textosSlide {
+  position: absolute;
+  width: 40%;
+  top: 15%;
+  right: 15%;
+}
+
+#slide .slideOpcion2 h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Ubuntu Condensed", sans-serif;
+  opacity: 1;
+  top: -10%;
+  color: #333;
+}
+
 #slide .slideOpciones button {
   border: 0px;
   margin-top: 10px;
