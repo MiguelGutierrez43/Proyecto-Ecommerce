@@ -11,7 +11,7 @@ SLIDE
 
 #slide ul {
   position: relative;
-  left: 0%;
+  left: -300%;
   margin: auto;
   height: auto;
   width: 400%;
@@ -54,6 +54,7 @@ SLIDE
 
 #slide .slideOpcion2 .textosSlide {
   position: absolute;
+  text-align: right;
   width: 40%;
   top: 15%;
   right: 15%;
