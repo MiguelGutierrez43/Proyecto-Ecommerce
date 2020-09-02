@@ -19,15 +19,15 @@ SLIDESHOW
 
                 <div class="slideOpciones slideOpcion1">
                 
-                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide1/tarjetas.png">
+                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide1/tarjetas.png" style="top:5%; right:15%; width:25%">
 
                     <div class="textosSlide">
                     
-                        <h1>15% de Descuento</h1>
+                        <h1 style="color:#333">15% de Descuento</h1>
 
-                        <h2>Tarjetas de Presentación</h2>
+                        <h2 style="color:#777">Tarjetas de Presentación</h2>
 
-                        <h3>Full Color</h3>
+                        <h3 style="color:#888">Full Color</h3>
 
                         <a href="#">
                         
@@ -53,15 +53,15 @@ SLIDESHOW
 
                 <div class="slideOpciones slideOpcion2">
                 
-                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide2/curso.png">
+                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide2/curso.png" style="top:5%; left:15%; width:25%">
 
                     <div class="textosSlide">
                     
-                        <h1>15% de Descuento</h1>
+                        <h1 style="color:#333">15% de Descuento</h1>
 
-                        <h2>Tarjetas de Presentación</h2>
+                        <h2 style="color:#777">Tarjetas de Presentación</h2>
 
-                        <h3>Full Color</h3>
+                        <h3 style="color:#888">Full Color</h3>
 
                         <a href="#">
                         
@@ -87,15 +87,15 @@ SLIDESHOW
 
                 <div class="slideOpciones slideOpcion2">
                 
-                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide3/iphone.png">
+                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide3/iphone.png" style="top:5%; left:15%; width:25%">
 
                     <div class="textosSlide">
                     
-                        <h1>15% de Descuento</h1>
+                        <h1 style="color:#eee">15% de Descuento</h1>
 
-                        <h2>Tarjetas de Presentación</h2>
+                        <h2 style="color:#ccc">Tarjetas de Presentación</h2>
 
-                        <h3>Full Color</h3>
+                        <h3 style="color:#aaa">Full Color</h3>
 
                         <a href="#">
                         
@@ -119,17 +119,17 @@ SLIDESHOW
             
                 <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide4/fondo3.jpg">
 
-                <div class="slideOpciones slideOpcion1">
+                <div class="slideOpciones slideOpcion1" style="top:5%; right:15%; width:25%">
                 
                     <img class="imgProducto" src="">
 
                     <div class="textosSlide">
                     
-                        <h1>15% de Descuento</h1>
+                        <h1 style="color:#333">15% de Descuento</h1>
 
-                        <h2>Tarjetas de Presentación</h2>
+                        <h2 style="color:#777">Tarjetas de Presentación</h2>
 
-                        <h3>Full Color</h3>
+                        <h3 style="color:#888">Full Color</h3>
 
                         <a href="#">
                         
