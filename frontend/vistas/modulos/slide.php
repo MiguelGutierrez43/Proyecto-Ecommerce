@@ -119,9 +119,9 @@ SLIDESHOW
             
                 <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide4/fondo3.jpg">
 
-                <div class="slideOpciones slideOpcion1" style="top:5%; right:15%; width:25%">
+                <div class="slideOpciones slideOpcion1">
                 
-                    <img class="imgProducto" src="">
+                    <img class="imgProducto" src=""  style="top:5%; right:15%; width:25%">
 
                     <div class="textosSlide">
                     
