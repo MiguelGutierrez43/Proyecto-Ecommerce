@@ -23,11 +23,11 @@ SLIDESHOW
 
                     <div class="textosSlide">
                     
-                        <h1>Lorem Ipsum</h1>
+                        <h1>15% de Descuento</h1>
 
-                        <h2>Lorem ipsum dolor sit</h2>
+                        <h2>Tarjetas de Presentación</h2>
 
-                        <h3>Lorem ipsum dolor sit</h3>
+                        <h3>Full Color</h3>
 
                         <a href="#">
                         
