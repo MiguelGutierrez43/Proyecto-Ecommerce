@@ -55,7 +55,7 @@ SLIDESHOW
                 
                     <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide2/curso.png" style="top:5%; left:15%; width:25%">
 
-                    <div class="textosSlide" style="top:20%; right:10%; width:40%">
+                    <div class="textosSlide" style="top:15%; right:15%; width:40%">
                     
                         <h1 style="color:#333">15% de Descuento</h1>
 
@@ -89,7 +89,7 @@ SLIDESHOW
                 
                     <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide3/iphone.png" style="top:5%; left:15%; width:25%">
 
-                    <div class="textosSlide" style="top:20%; right:10%; width:40%">
+                    <div class="textosSlide" style="top:15%; right:15%; width:40%">
                     
                         <h1 style="color:#eee">15% de Descuento</h1>
 
@@ -153,19 +153,18 @@ SLIDESHOW
         ======================================-->
         <ol id="paginacion">
 
-        <li item="1"><span class="fa fa-circle"></span></li>
-        <li item="2"><span class="fa fa-circle"></span></li>
-        <li item="3"><span class="fa fa-circle"></span></li>
-        <li item="4"><span class="fa fa-circle"></span></li>
+        	<li item="1"><span class="fa fa-circle"></span></li>
+			<li item="2"><span class="fa fa-circle"></span></li>
+			<li item="3"><span class="fa fa-circle"></span></li>
+			<li item="4"><span class="fa fa-circle"></span></li>
 
-        </ol>
-
+		</ol>	
 
         <!--=====================================
         FLECHAS
         ======================================-->
         <div class="flechas" id="retroceder"><span class="fa fa-chevron-left"></span></div>
-        <div class="flechas" id="avanzar"><span class="fa fa-chevron-right"></span></div>
+		<div class="flechas" id="avanzar"><span class="fa fa-chevron-right"></span></div>
     
     </div>
 
