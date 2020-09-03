@@ -160,10 +160,11 @@ SLIDESHOW
 
 		</ol>	
 
-        <!--=====================================
-        FLECHAS
-        ======================================-->
-        <div class="flechas" id="retroceder"><span class="fa fa-chevron-left"></span></div>
+		<!--=====================================
+		FLECHAS
+		======================================-->	
+
+		<div class="flechas" id="retroceder"><span class="fa fa-chevron-left"></span></div>
 		<div class="flechas" id="avanzar"><span class="fa fa-chevron-right"></span></div>
     
     </div>
