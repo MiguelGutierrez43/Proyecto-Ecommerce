@@ -21,7 +21,7 @@ SLIDESHOW
                 
                     <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide1/tarjetas.png" style="top:5%; right:15%; width:25%">
 
-                    <div class="textosSlide">
+                    <div class="textosSlide" style="top:20%; left:10%; width:40%">
                     
                         <h1 style="color:#333">15% de Descuento</h1>
 
@@ -55,7 +55,7 @@ SLIDESHOW
                 
                     <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide2/curso.png" style="top:5%; left:15%; width:25%">
 
-                    <div class="textosSlide">
+                    <div class="textosSlide" style="top:20%; right:10%; width:40%">
                     
                         <h1 style="color:#333">15% de Descuento</h1>
 
@@ -89,7 +89,7 @@ SLIDESHOW
                 
                     <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide3/iphone.png" style="top:5%; left:15%; width:25%">
 
-                    <div class="textosSlide">
+                    <div class="textosSlide" style="top:20%; right:10%; width:40%">
                     
                         <h1 style="color:#eee">15% de Descuento</h1>
 
@@ -123,7 +123,7 @@ SLIDESHOW
                 
                     <img class="imgProducto" src=""  style="top:5%; right:15%; width:25%">
 
-                    <div class="textosSlide">
+                    <div class="textosSlide" style="top:20%; left:10%; width:40%">
                     
                         <h1 style="color:#333">15% de Descuento</h1>
 

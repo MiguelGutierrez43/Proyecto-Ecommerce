@@ -39,9 +39,9 @@ SLIDE
 
 #slide .slideOpcion1 .textosSlide {
   position: absolute;
-  width: 40%;
+  /*width: 40%;
   top: 20%;
-  left: 10%;
+  left: 10%;*/
 }
 
 #slide .slideOpcion2 img {
@@ -55,9 +55,9 @@ SLIDE
 #slide .slideOpcion2 .textosSlide {
   position: absolute;
   text-align: right;
-  width: 40%;
+  /*width: 40%;
   top: 15%;
-  right: 15%;
+  right: 15%;*/
 }
 
 #slide .slideOpciones h1 {
