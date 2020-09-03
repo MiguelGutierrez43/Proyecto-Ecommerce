@@ -19,7 +19,7 @@ SLIDESHOW
 
                 <div class="slideOpciones slideOpcion1">
                 
-                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide1/tarjetas.png" style="top:5%; right:15%; width:25%">
+                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/slide/slide1/tarjetas.png" style="top:15%; right:10%; width:45%">
 
                     <div class="textosSlide" style="top:20%; left:10%; width:40%">
                     
@@ -148,8 +148,11 @@ SLIDESHOW
             </li>
         
         </ul>
-
-
+        <!--=====================================
+        FLECHAS
+        ======================================-->
+        <div class="flechas" id="retroceder"><span class="fa fa-chevron-left"></span></div>
+        <div class="flechas" id="avanzar"><span class="fa fa-chevron-right"></span></div>
     
     </div>
 
