@@ -121,7 +121,7 @@ SLIDESHOW
 
                 <div class="slideOpciones slideOpcion1">
                 
-                    <img class="imgProducto" src=""  style="top:5%; right:15%; width:25%">
+                    <img class="imgProducto" src="" style="top:5%; right:15%; width:25%">
 
                     <div class="textosSlide" style="top:20%; left:10%; width:40%">
                     
