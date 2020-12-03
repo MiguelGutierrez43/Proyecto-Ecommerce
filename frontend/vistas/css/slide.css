@@ -119,13 +119,13 @@ FLECHAS
 #slide #retroceder {
   background: #666;
   left: 0;
-  opacity: 1;
+  opacity: 0;
 }
 
 #slide #avanzar {
   background: #666;
   right: 0;
-  opacity: 1;
+  opacity: 0;
 }
 
 #slide #retroceder:hover,
