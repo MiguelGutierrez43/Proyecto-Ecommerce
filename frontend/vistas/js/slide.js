@@ -19,7 +19,7 @@ $("#paginacion li").click(function(){
 AVANZAR
 =============================================*/
 
-$("#slide #avanzar").click(function() {
+function avanzar() {
 
     if (item == 3){
 
@@ -27,6 +27,29 @@ $("#slide #avanzar").click(function() {
     }else{
 
         item++
+    }
+
+    movimientoSlide(item);
+}
+
+$("#slide #avanzar").click(function() {
+
+    avanzar();
+
+})
+
+/*=============================================
+RETROCEDER
+=============================================*/
+
+$("#slide #retroceder").click(function() {
+
+    if (item == 3){
+
+        item = 0;
+    }else{
+
+        item--
     }
     
     movimientoSlide(item);
@@ -45,3 +68,11 @@ function movimientoSlide(item) {
     $(itemPaginacion[item]).css({"opacity" :.1})
     
 }
+
+/*=====================================
+INTERVALO
+======================================*/
+
+setInterval(function () {
+    avanzar();
+},3000)
