@@ -5,6 +5,8 @@ var item = 0;
 
 var itemPaginacion = $("#paginacion li");
 
+var
+
 /*=====================================
 PAGINACIÓN
 ======================================*/
