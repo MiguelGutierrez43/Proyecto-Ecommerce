@@ -86,7 +86,7 @@ MOVIMIENTO SLIDE
 
 function movimientoSlide(item) {
 
-    $("#slide ul").animate({"left" : item * -100 + "%"}, 300)
+    $("#slide ul").animate({"left" : item * -100 + "%"}, 1000)
 
     $("#paginacion li").css({"opacity" :.5})
 
