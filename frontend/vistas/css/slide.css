@@ -118,8 +118,11 @@ FLECHAS
 
 #slide #retroceder {
   background: #666;
+  padding: 40px 15px 40px 10px;
+  top: 37%;
   left: 0;
-  opacity: 0;
+  font-size: 22px;
+  opacity: 1;
 }
 
 #slide #avanzar {

@@ -86,7 +86,7 @@ MOVIMIENTO SLIDE
 
 function movimientoSlide(item) {
 
-    $("#slide ul").animate({"left" : item * -100 + "%"}, 1000)
+    $("#slide ul").animate({"left" : item * -100 + "%"}, 1000, "easeOutQuart")
 
     $("#paginacion li").css({"opacity" :.5})
 
@@ -127,4 +127,4 @@ setInterval(function () {
 
     }
     
-},3000)
+},3000);
