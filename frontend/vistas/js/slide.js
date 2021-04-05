@@ -9,6 +9,7 @@ var titulos1 = $("#slide h1");
 var titulos2 = $("#slide h2");
 var titulos3 = $("#slide h3");
 var btnVerProducto = $("#slide button");
+var detenerIntervalo = false;
 
 /*=====================================
 ANIMACION INICIAL
@@ -123,8 +124,34 @@ setInterval(function () {
 
     }else{
 
-        avanzar();
+        if(!detenerIntervalo){
+
+            avanzar();
+        }
 
     }
     
 },3000);
+
+/*=====================================
+APARECER FLECHAS
+======================================*/
+
+$("#slide").mouseover(function(){
+
+	$("#slide #retroceder").css({"opacity":1})
+	$("#slide #avanzar").css({"opacity":1})
+
+    detenerIntervalo = true;
+
+})
+
+$("#slide").mouseout(function(){
+
+	$("#slide #retroceder").css({"opacity":0})
+	$("#slide #avanzar").css({"opacity":0})
+
+    detenerIntervalo = false;
+
+})
+
