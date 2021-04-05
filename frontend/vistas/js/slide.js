@@ -142,16 +142,17 @@ $("#slide").mouseover(function(){
 	$("#slide #retroceder").css({"opacity":1})
 	$("#slide #avanzar").css({"opacity":1})
 
-    detenerIntervalo = true;
+	detenerIntervalo = true;
 
 })
+
 
 $("#slide").mouseout(function(){
 
 	$("#slide #retroceder").css({"opacity":0})
 	$("#slide #avanzar").css({"opacity":0})
 
-    detenerIntervalo = false;
+	detenerIntervalo = false;
 
 })
 
