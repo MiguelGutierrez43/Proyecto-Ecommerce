@@ -164,6 +164,13 @@ PAGINACIÓN
   opacity: 1;
 }
 
+#btnSlide {
+  width: 150px;
+  border: 0px;
+  font-size: 25px;
+  padding: 2px;
+}
+
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/

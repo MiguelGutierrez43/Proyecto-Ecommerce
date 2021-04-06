@@ -10,6 +10,7 @@ var titulos2 = $("#slide h2");
 var titulos3 = $("#slide h3");
 var btnVerProducto = $("#slide button");
 var detenerIntervalo = false;
+var toogle = false;
 
 /*=====================================
 ANIMACION INICIAL
@@ -85,31 +86,34 @@ $("#slide #retroceder").click(function() {
 MOVIMIENTO SLIDE
 ======================================*/
 
-function movimientoSlide(item) {
+function movimientoSlide(item){
 
-    $("#slide ul").animate({"left" : item * -100 + "%"}, 1000, "easeOutQuart")
+	$("#slide ul li").finish();
 
-    $("#paginacion li").css({"opacity" :.5})
+	// http://easings.net/es
 
-    $(itemPaginacion[item]).css({"opacity" :.1})
+	$("#slide ul").animate({"left": item * -100 + "%"}, 1000, "easeOutQuart")
 
-    interrupirCiclo = true;
+	$("#paginacion li").css({"opacity":.5})
 
-    $(imgProducto[item]).animate({"top": -10 + "%", "opacity": 0},100)
-    $(imgProducto[item]).animate({"top": 30 + "px", "opacity": 1},600)
+	$(itemPaginacion[item]).css({"opacity":1})
 
-    $(titulos1[item]).animate({"top":-10 +"%", "opacity": 0},100)
-    $(titulos1[item]).animate({"top":30 +"px", "opacity": 1},600)
+	interrumpirCiclo = true;
 
-    $(titulos2[item]).animate({"top":-10 +"%", "opacity": 0},100)
-    $(titulos2[item]).animate({"top":30 +"px", "opacity": 1},600)
+	$(imgProducto[item]).animate({"top":-10 +"%", "opacity": 0},100)
+	$(imgProducto[item]).animate({"top":30 +"px", "opacity": 1},600)
 
-    $(titulos3[item]).animate({"top":-10 +"%", "opacity": 0},100)
-    $(titulos3[item]).animate({"top":30 +"px", "opacity": 1},600)
+	$(titulos1[item]).animate({"top":-10 +"%", "opacity": 0},100)
+	$(titulos1[item]).animate({"top":30 +"px", "opacity": 1},600)
 
-    $(btnVerProducto[item]).animate({"top":-10 +"%", "opacity": 0},100)
-    $(btnVerProducto[item]).animate({"top":30 +"px", "opacity": 1},600)
-    
+	$(titulos2[item]).animate({"top":-10 +"%", "opacity": 0},100)
+	$(titulos2[item]).animate({"top":30 +"px", "opacity": 1},600)
+
+	$(titulos3[item]).animate({"top":-10 +"%", "opacity": 0},100)
+	$(titulos3[item]).animate({"top":30 +"px", "opacity": 1},600)
+
+	$(btnVerProducto[item]).animate({"top":-10 +"%", "opacity": 0},100)
+	$(btnVerProducto[item]).animate({"top":30 +"px", "opacity": 1},600)
 }
 
 /*=====================================
@@ -156,3 +160,26 @@ $("#slide").mouseout(function(){
 
 })
 
+/*=====================================
+ESCONDER SLIDE
+======================================*/
+$("#btnSlide").click(function(){
+
+	if(!toogle){
+
+		toogle = true;
+
+		$("#slide").slideUp("fast");
+
+		$("#btnSlide").html('<i class="fa fa-angle-down"></i>')
+	
+	}else{
+
+		toogle = false;
+
+		$("#slide").slideDown("fast");
+
+		$("#btnSlide").html('<i class="fa fa-angle-up"></i>')
+	}
+
+})
