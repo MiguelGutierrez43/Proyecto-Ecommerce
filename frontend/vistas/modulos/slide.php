@@ -14,7 +14,46 @@ SLIDESHOW
         <?php
             $slide = ControladorSlide::ctrMostrarSlide();
 
-            var_dump($slide);
+            foreach ($slide as $key => $value) {
+
+            $estiloImgProducto = json_decode($value["estiloImgProducto"],true);
+
+            var_dump($estiloImgProducto);
+            
+
+                echo '<li>
+            
+                    <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/'.$value["imgFondo"].'">
+
+                    <div class="slideOpciones '.$value["tipoSlide"].'">
+            
+                    <img class="imgProducto" src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/'.$value["imgProducto"].'" style="top:15%; right:10%; width:45%">
+
+                    <div class="textosSlide" style="top:20%; left:10%; width:40%">
+                
+                    <h1 style="color:#333">15% de Descuento</h1>
+
+                    <h2 style="color:#777">Tarjetas de Presentación</h2>
+
+                    <h3 style="color:#888">Full Color</h3>
+
+                    <a href="#">
+                    
+                        <button class="btn btn-default backColor text-uppercase">
+
+                        VER PRODUCTO <span class="fa fa-chevron-right"></span>
+
+                        </button>
+
+                    </a>
+
+                    </div>
+
+                    </div>
+
+                </li>';
+
+            }
         ?>
 
         <!-- SLIDE 1 -->
