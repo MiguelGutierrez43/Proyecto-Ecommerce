@@ -11,6 +11,12 @@ SLIDESHOW
 
         <ul>
 
+        <?php
+            $slide = ControladorSlide::ctrMostrarSlide();
+
+            var_dump($slide);
+        ?>
+
         <!-- SLIDE 1 -->
             
             <li>
