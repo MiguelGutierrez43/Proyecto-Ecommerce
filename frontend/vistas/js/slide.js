@@ -12,6 +12,9 @@ var btnVerProducto = $("#slide button");
 var detenerIntervalo = false;
 var toogle = false;
 
+$("#slide ul li").css({"widht":100/$("#slide ul li").length + "%"})
+$("#slide ul").css({"widht": $("#slide ul li").length*100 + "%"})
+
 /*=====================================
 ANIMACION INICIAL
 ======================================*/
@@ -48,7 +51,7 @@ AVANZAR
 
 function avanzar() {
 
-    if (item == 3){
+    if (item == $("#slide ul li").length -1){
 
         item = 0;
     }else{
@@ -71,7 +74,7 @@ RETROCEDER
 
 $("#slide #retroceder").click(function() {
 
-    if (item == 3){
+    if (item == $("#slide ul li").length -1){
 
         item = 0;
     }else{
