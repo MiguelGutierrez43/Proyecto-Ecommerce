@@ -19,9 +19,11 @@
 
     <?php
 
+		$servidor = Ruta::ctrRutaServidor();
+
         $icono = ControladorPlantilla::ctrEstiloPlantilla();
 
-        echo '<link rel="icon" href="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/'.$icono["icono"].'">';
+        echo '<link rel="icon" href="'.$servidor.$icono["icono"].'">';
 
         /*========================================================
         MANTENER LA RUTA FIJA DEL PROYECTO
