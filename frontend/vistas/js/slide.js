@@ -63,12 +63,13 @@ function avanzar(){
 
 	interrumpirCiclo = true;
 
-    movimientoSlide(item);
+	movimientoSlide(item);
+
 }
 
-$("#slide #avanzar").click(function() {
+$("#slide #avanzar").click(function(){
 
-    avanzar();
+	avanzar();
 
 })
 
@@ -91,6 +92,7 @@ $("#slide #retroceder").click(function(){
 	movimientoSlide(item);
 
 })
+
 
 /*=====================================
 MOVIMIENTO SLIDE
