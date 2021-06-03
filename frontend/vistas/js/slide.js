@@ -49,15 +49,19 @@ $("#paginacion li").click(function(){
 AVANZAR
 =============================================*/
 
-function avanzar() {
+function avanzar(){
 
-    if (item == $("#slide ul li").length -1){
+	if(item == $("#slide ul li").length -1){
 
-        item = 0;
-    }else{
+		item = 0;
 
-        item++
-    }
+	}else{
+
+		item++
+
+	}
+
+	interrumpirCiclo = true;
 
     movimientoSlide(item);
 }
@@ -72,17 +76,20 @@ $("#slide #avanzar").click(function() {
 RETROCEDER
 =============================================*/
 
-$("#slide #retroceder").click(function() {
+$("#slide #retroceder").click(function(){
 
-    if (item == $("#slide ul li").length -1){
+	if(item == 0){
 
-        item = 0;
-    }else{
+		item = $("#slide ul li").length -1;
 
-        item--
-    }
-    
-    movimientoSlide(item);
+	}else{
+
+		item--
+
+	}
+
+	movimientoSlide(item);
+
 })
 
 /*=====================================
@@ -123,22 +130,27 @@ function movimientoSlide(item){
 INTERVALO
 ======================================*/
 
-setInterval(function () {
+setInterval(function(){
 
-    if(interrupirCiclo){
+	if(interrumpirCiclo){
 
-        interrupirCiclo = false;
+		interrumpirCiclo = false;
 
-    }else{
+		detenerIntervalo = false;
 
-        if(!detenerIntervalo){
+		$("#slide ul li").finish();
 
-            avanzar();
-        }
+	}else{
 
-    }
-    
-},3000);
+		if(!detenerIntervalo){
+
+			avanzar();
+
+		}
+
+	}
+
+},3000)
 
 /*=====================================
 APARECER FLECHAS
