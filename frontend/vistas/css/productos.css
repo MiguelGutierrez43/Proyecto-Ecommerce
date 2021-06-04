@@ -48,3 +48,15 @@ BARRA PRODUCTOS
 .barraProductos .organizarProductos span {
   margin-left: 5px;
 }
+
+/*--=====================================
+VITRINA PRODUCTOS
+======================================-->*/
+
+.tituloDestacado h1 {
+  margin-top: -5px;
+}
+
+.tituloDestacado button span {
+  margin-left: 5px;
+}
