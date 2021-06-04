@@ -41,6 +41,15 @@ BARRAS DE PRODUCTOS GRATIS
                         </i>
 
                     </button>
+                    <button type="button" class="btn btn-default btnList" id="btnList0">
+
+                        <i class="fa fa-list" aria-hidden="true">
+
+                            <span class="col-xs-0 pull-right">LIST</span>
+
+                        </i>
+
+                    </button>
 
                 </div>
 
@@ -51,3 +60,7 @@ BARRAS DE PRODUCTOS GRATIS
     </div>
 
 </div>
+
+<!--=====================================
+PRODUCTOS GRATIS
+======================================-->
