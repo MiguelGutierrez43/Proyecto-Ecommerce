@@ -5,23 +5,24 @@ BANNER
 .banner {
   position: relative;
   overflow: hidden;
+  height: 260px;
 }
 .banner .textoBanner {
   position: absolute;
   font-family: "Ubuntu Condensed", sans-serif;
 }
 .banner .textoDer {
-  top: 35px;
+  top: 50px;
   right: 50px;
   text-align: right;
 }
 .banner .textoIzq {
-  top: 35px;
+  top: 50px;
   right: 50px;
   text-align: left;
 }
 .banner .textoCentro {
-  top: 35px;
+  top: 50px;
   left: 50%;
   width: 800px;
   margin-left: -400px;
