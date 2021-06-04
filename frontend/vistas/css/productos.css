@@ -1,0 +1,42 @@
+/*--=====================================
+BANNER
+======================================-->*/
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+.banner .textoBanner {
+  position: absolute;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.banner .textoDer {
+  top: 35px;
+  right: 50px;
+  text-align: right;
+}
+.banner .textoIzq {
+  top: 35px;
+  right: 50px;
+  text-align: left;
+}
+.banner .textoCentro {
+  top: 35px;
+  left: 50%;
+  width: 800px;
+  margin-left: -400px;
+  text-align: center;
+}
+
+.textoBanner h1 {
+  font-size: 35px;
+  line-height: 25px;
+}
+.textoBanner h2 {
+  font-size: 30px;
+  line-height: 25px;
+}
+.textoBanner h3 {
+  font-size: 24px;
+  line-height: 25px;
+}
