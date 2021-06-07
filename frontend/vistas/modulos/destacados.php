@@ -79,7 +79,7 @@ VITRINA DE PRODUCTOS GRATIS
 
                 <div class="col-sm-6 col-xs-12">
 
-                    <h1><small>ARTÍCULOS GRATIUTOS</small></h1>
+                    <h1><small>ARTÍCULOS GRATUITOS</small></h1>
 
                 </div>
 
@@ -137,6 +137,218 @@ VITRINA DE PRODUCTOS GRATIS
                 <a href="" class="pixelProducto">
                 
                     Collar de diamantes <br>
+                
+                </a>
+
+            </small>
+        
+        </h4>
+
+        <!--=================================================-->
+
+        <div class="col-xs-6 precio">
+        
+            <h2><small>GRATIS</small></h2>
+
+        </div>
+        
+        <!--=================================================-->
+
+        <div class="col-xs-6 enlaces">
+        
+            <div class="btn-group pull-right">
+
+                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" 
+                data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                
+                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                </button>
+
+                <a href="#" class="pixelProducto">
+
+                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                    title="Ver Producto">
+                    
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                    </button>
+                
+                </a>
+            
+            </div>
+
+        </div>
+
+
+        </li>
+        <!-- Producto 2 -->
+
+        <li class="col-md-3 col-sm-6 col-xs-12">
+        
+        <!--=================================================-->
+
+        <figure>
+
+            <a href="#" class="pixelProducto">
+
+                <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/productos/accesorios/accesorio03.jpg" class="img-responsive">
+            
+            </a>
+
+        </figure>
+        
+        <!--=================================================-->
+
+        <h4>
+        
+            <small>
+
+                <a href="" class="pixelProducto">
+                
+                    Bolso Deportivo Gris <br>
+                
+                </a>
+
+            </small>
+        
+        </h4>
+
+        <!--=================================================-->
+
+        <div class="col-xs-6 precio">
+        
+            <h2><small>GRATIS</small></h2>
+
+        </div>
+        
+        <!--=================================================-->
+
+        <div class="col-xs-6 enlaces">
+        
+            <div class="btn-group pull-right">
+
+                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" 
+                data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                
+                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                </button>
+
+                <a href="#" class="pixelProducto">
+
+                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                    title="Ver Producto">
+                    
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                    </button>
+                
+                </a>
+            
+            </div>
+
+        </div>
+
+
+        </li>
+
+        <!-- Producto 3 -->
+
+        <li class="col-md-3 col-sm-6 col-xs-12">
+        
+        <!--=================================================-->
+
+        <figure>
+
+            <a href="#" class="pixelProducto">
+
+                <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/productos/accesorios/accesorio02.jpg" class="img-responsive">
+            
+            </a>
+
+        </figure>
+        
+        <!--=================================================-->
+
+        <h4>
+        
+            <small>
+
+                <a href="" class="pixelProducto">
+                
+                    Bolso Militar <br>
+                
+                </a>
+
+            </small>
+        
+        </h4>
+
+        <!--=================================================-->
+
+        <div class="col-xs-6 precio">
+        
+            <h2><small>GRATIS</small></h2>
+
+        </div>
+        
+        <!--=================================================-->
+
+        <div class="col-xs-6 enlaces">
+        
+            <div class="btn-group pull-right">
+
+                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" 
+                data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                
+                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                </button>
+
+                <a href="#" class="pixelProducto">
+
+                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                    title="Ver Producto">
+                    
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                    </button>
+                
+                </a>
+            
+            </div>
+
+        </div>
+
+
+        </li>
+
+        <!-- Producto 4 -->
+
+        <li class="col-md-3 col-sm-6 col-xs-12">
+        
+        <!--=================================================-->
+
+        <figure>
+
+            <a href="#" class="pixelProducto">
+
+                <img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/productos/accesorios/accesorio01.jpg" class="img-responsive">
+            
+            </a>
+
+        </figure>
+        
+        <!--=================================================-->
+
+        <h4>
+        
+            <small>
+
+                <a href="" class="pixelProducto">
+                
+                    Pulsera de Diamantes <br>
                 
                 </a>
 
