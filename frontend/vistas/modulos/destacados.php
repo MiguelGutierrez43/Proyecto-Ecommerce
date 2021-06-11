@@ -136,7 +136,7 @@ VITRINA DE PRODUCTOS GRATIS
 
                 <a href="" class="pixelProducto">
                 
-                    Collar de diamantes <br><br>
+                    Cuadernos <br><br>
                 
                 </a>
 
@@ -206,7 +206,7 @@ VITRINA DE PRODUCTOS GRATIS
 
                 <a href="" class="pixelProducto">
                 
-                    Bolso Deportivo Gris <br><br>
+                    Trípticos <br><br>
                 
                 </a>
 
@@ -277,7 +277,7 @@ VITRINA DE PRODUCTOS GRATIS
 
                 <a href="" class="pixelProducto">
                 
-                    Bolso Militar <br><br>
+                    Adhesivos <br><br>
                 
                 </a>
 
@@ -348,7 +348,7 @@ VITRINA DE PRODUCTOS GRATIS
 
                 <a href="" class="pixelProducto">
                 
-                    Pulsera de Diamantes <br>
+                    Dípticos <br>
 
                     <span class="label label-warning fontSize">Nuevo</span>
                 
@@ -523,7 +523,7 @@ VITRINA DE PRODUCTOS MAS VENDIDOS
 
                 <a href="" class="pixelProducto">
                 
-                    Falda de Flores <br>
+                    Pendones <br>
 
                     <span class="label label-warning fontSize">Nuevo</span>
 
@@ -608,7 +608,7 @@ VITRINA DE PRODUCTOS MAS VENDIDOS
 
                 <a href="" class="pixelProducto">
                 
-                    Vestido Jean <br>
+                    Hojas Cartas <br>
 
                     <span class="label label-warning fontSize">40% off</span>
                 
@@ -690,7 +690,7 @@ VITRINA DE PRODUCTOS MAS VENDIDOS
 
                 <a href="" class="pixelProducto">
                 
-                    Vestido Clásico <br>
+                    Tarjetas de Presentación <br>
 
                     <span class="label label-warning fontSize">40% off</span>
                 
@@ -772,7 +772,7 @@ VITRINA DE PRODUCTOS MAS VENDIDOS
 
                 <a href="" class="pixelProducto">
                 
-                    Top Dama
+                    Volantes
 
                     <br>
                     <br>
