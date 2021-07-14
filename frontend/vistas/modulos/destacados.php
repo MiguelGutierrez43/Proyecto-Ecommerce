@@ -110,7 +110,7 @@ VITRINA DE PRODUCTOS GRATIS
         VITRINA DE PRODUCTOS EN CUADRÍCULA
         ======================================-->
 
-        <ul class="grid0">
+        <ul class="grid0" style="display:none">
 
         <!-- Producto 1 -->
 
@@ -398,6 +398,33 @@ VITRINA DE PRODUCTOS GRATIS
         </li>
         
         
+        </ul>
+         <!--=====================================
+        VITRINA DE PRODUCTOS EN LISTA
+        ======================================-->
+
+        <ul class="list0">
+
+            <!-- PRODUCTO 1 -->
+
+            <li class="col-xs-12">
+
+                <!--=================================================-->
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                    <figure>
+
+                        <a href="#" class="pixelProducto"><img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/
+                        productos/accesorios/accesorio04.jpg" class="img-responsive"></a>
+
+                    </figure>
+
+                </div>
+
+
+            </li>
+
         </ul>
 
     </div>
