@@ -415,10 +415,25 @@ VITRINA DE PRODUCTOS GRATIS
 
                     <figure>
 
-                        <a href="#" class="pixelProducto"><img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/
-                        productos/accesorios/accesorio04.jpg" class="img-responsive"></a>
+                        <a href="#" class="pixelProducto"><img src="http://localhost/undurraga-ti/Proyecto-Ecommerce/backend/vistas/img/productos/accesorios/accesorio04.jpg" class="img-responsive"></a>
 
                     </figure>
+
+                </div>
+
+                <!--=================================================-->
+
+                <div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
+
+                    <h1>
+
+                        <small>
+
+                            <a href="#" class="pixelProducto">Collar de Diamantes</a>
+
+                        </small>
+
+                    </h1>
 
                 </div>
 
