@@ -435,6 +435,34 @@ VITRINA DE PRODUCTOS GRATIS
 
                     </h1>
 
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam omnis amet
+                        non itaque voluptas, perspiciatis quibusdam esse facilis asperiores hic harum a ea similique
+                        numquam adipisci, reiciendis velit natus corrupti.</p>
+                    
+                    <h2><small>GRATIS</small></h2>
+
+                    <div class="btn-group pull-left enlaces">
+
+                        <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" 
+                        data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+
+                        </button>
+
+                    <a href="#" class="pixelProducto">
+
+                        <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                        title="Ver Producto">
+                    
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+
+                        </button>
+                
+                    </a>
+            
+            </div>
+
                 </div>
 
 
